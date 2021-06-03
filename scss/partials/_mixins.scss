@@ -1,0 +1,12 @@
+@mixin button($bg-color, $border, $border-radius, $box-shadow, $color, $cursor, $font-weight, $padding, $text-transform, $transition) {
+  background-color: $bg-color;
+  border: $border;
+  border-radius: $border-radius;
+  box-shadow: $box-shadow;
+  color: $color;
+  cursor: $cursor;
+  font-weight: $font-weight;
+  padding: $padding;
+  text-transform: $text-transform;
+  transition: $transition;
+}

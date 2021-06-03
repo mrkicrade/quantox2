@@ -1,0 +1,6 @@
+.epp {
+  display: flex;
+  margin: 0 75px;
+  margin-top: 100px; }
+  .epp__left {
+    width: 20%; }

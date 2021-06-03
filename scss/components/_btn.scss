@@ -1,0 +1,19 @@
+.btn {
+  @include button($info-text-color, 0, 50px, $box-shadow, $btn-color, pointer, 700, 0 19px, uppercase, width 1s);
+  display: block;
+  height: 60px;
+  letter-spacing: 2px;
+  margin: 0 auto;
+  margin-top: 25px;
+  width: 175px;
+
+  &:hover {
+    width: 300px;
+  }
+}
+
+@media (min-width: 568px) {
+  .btn {
+    width: 250px;
+  }
+}

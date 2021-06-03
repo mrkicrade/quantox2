@@ -1,0 +1,72 @@
+.about {
+  background-color: $about-color;
+  padding: 0;
+
+  &__image {
+    transition: 2s;
+    width: 100%;
+  }
+
+  &__info {
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+
+    article {
+      border-top: 1px solid $about-info-border;
+      margin-top: 20px;
+      padding-bottom: 20px;
+      padding-top: 20px;
+    }
+
+    &-icon {
+      margin-bottom: 40px;
+      padding-top: 40px;
+    }
+
+    &-paragraph {
+      color: $about-info-paragraph;
+      letter-spacing: 3px;
+      text-align: center;
+      text-transform: uppercase;
+    }
+
+    &-title {
+      color: $about-title;
+      font-size: $works-info-heading;
+      font-weight: 900;
+      text-align: center;
+      text-transform: uppercase;
+    }
+
+    &-desc {
+      font-size: $introduction-title;
+      line-height: 1.8;
+    }
+  }
+}
+
+@media (min-width: 568px) {
+  .about {
+    &__info {
+      &-paragraph {
+        font-size: $introduction-title-sm;
+      }
+
+      &-title {
+        font-size: $arrow-size;
+      }
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .about {
+    display: flex;
+
+    &__image {
+      padding-right: 15px;
+      width: 50%;
+    }
+  }
+}
