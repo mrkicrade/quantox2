@@ -1,8 +1,8 @@
-@mixin button($bg-color, $border, $border-radius, $box-shadow, $color, $cursor, $font-weight, $padding, $text-transform, $transition) {
+@mixin button($bg-color, $border, $border-radius, $box-shadow-color, $color, $cursor, $font-weight, $padding, $text-transform, $transition) {
   background-color: $bg-color;
   border: $border;
   border-radius: $border-radius;
-  box-shadow: $box-shadow;
+  box-shadow: $box-shadow-color;
   color: $color;
   cursor: $cursor;
   font-weight: $font-weight;

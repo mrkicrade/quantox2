@@ -59,7 +59,7 @@ a {
     margin-right: 20px;
     padding-right: 20px; }
     .main-header__phone:hover {
-      opacity: 0.8; }
+      opacity: .8; }
   .main-header__email {
     border-right: 1px solid rgba(255, 255, 255, 0.15);
     color: #fff;
@@ -70,7 +70,7 @@ a {
     margin-right: 20px;
     padding-right: 20px; }
     .main-header__email:hover {
-      opacity: 0.8; }
+      opacity: .8; }
   .main-header__working-hours {
     color: #fff;
     cursor: pointer;
@@ -79,7 +79,7 @@ a {
     height: 45px;
     margin-right: 20px; }
     .main-header__working-hours:hover {
-      opacity: 0.8; }
+      opacity: .8; }
   .main-header__strong {
     text-transform: uppercase; }
 
@@ -176,21 +176,21 @@ a {
   background-color: #fff;
   border: 0;
   border-radius: 50px;
+  box-shadow: 0 15px 45px -9px #888;
   color: #535353;
   cursor: pointer;
-  display: block;
   font-weight: 700;
+  padding: 0 19px;
+  text-transform: uppercase;
+  transition: width 1s;
+  display: block;
   height: 60px;
   letter-spacing: 2px;
   margin: 0 auto;
   margin-top: 25px;
-  padding-left: 19px;
-  padding-right: 19px;
-  text-transform: uppercase;
-  transition: width 1s;
   width: 175px; }
   .btn:hover {
-    width: 300px; }
+    width: 250px; }
 
 @media (min-width: 568px) {
   .btn {
@@ -336,11 +336,11 @@ a {
     box-shadow: 0 15px 45px -9px #888;
     color: #4c4c4c;
     cursor: pointer;
-    font-size: 13px;
     font-weight: 700;
-    padding: 19px 41px;
+    padding: 0 19px;
     text-transform: uppercase;
-    transition: .3s letter-spacing; }
+    transition: 3s letter-spacing;
+    font-size: 13px; }
     .gallery-btn:hover {
       letter-spacing: 3px; }
   .gallery-btn-1 {
@@ -607,8 +607,8 @@ a {
       flex-wrap: wrap;
       justify-content: space-around; }
     .footer__projects__image {
-      height: 85px;
-      width: 85px; }
+      height: 30vw;
+      width: 30vw; }
     .footer__projects__icons {
       color: #fff;
       left: 50%;

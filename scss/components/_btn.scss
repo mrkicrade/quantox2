@@ -1,5 +1,5 @@
 .btn {
-  @include button($info-text-color, 0, 50px, $box-shadow, $btn-color, pointer, 700, 0 19px, uppercase, width 1s);
+  @include button($info-text-color, 0, 50px, $box-shadow-color, $btn-color, pointer, 700, 0 19px, uppercase, width 1s);
   display: block;
   height: 60px;
   letter-spacing: 2px;
@@ -8,7 +8,7 @@
   width: 175px;
 
   &:hover {
-    width: 300px;
+    width: 250px;
   }
 }
 
