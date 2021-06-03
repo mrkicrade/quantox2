@@ -179,5 +179,12 @@
         justify-content: center;
       }
     }
+
+    &__projects {
+      &__image {
+        height: 9vw;
+        width: 9vw;
+      }
+    }
   }
 }
