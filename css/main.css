@@ -651,6 +651,9 @@ a {
     width: 110px; } }
 
 @media (min-width: 1400px) {
+  .footer__projects__image {
+    height: 9vw;
+    width: 9vw; }
   .footer__address__city {
     justify-content: center; }
   .footer__address__phone {

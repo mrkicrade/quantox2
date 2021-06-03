@@ -162,6 +162,13 @@
 
 @media (min-width: 1400px) {
   .footer {
+    &__projects {
+      &__image {
+        height: 9vw;
+        width: 9vw;
+      }
+    }
+
     &__address {
       &__city {
         justify-content: center;
@@ -177,13 +184,6 @@
 
       &__hours {
         justify-content: center;
-      }
-    }
-
-    &__projects {
-      &__image {
-        height: 9vw;
-        width: 9vw;
       }
     }
   }
